@@ -1,0 +1,7 @@
+def is_palindrome(a):
+    return a == a[::-1]
+a = input("Enter something: ")
+if is_palindrome(a):
+    print("Palindrome")
+else:
+    print("Not a palindrome")
