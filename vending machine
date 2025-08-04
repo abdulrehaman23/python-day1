@@ -1,0 +1,18 @@
+n=int(input('enter the money:'))
+if n==10:
+    print('chips')
+if n==20:
+    print('m=mango','w=water','b=bindu','c=2x chips')
+    a=input('enter your choice: ')
+    if a == 'w':
+        print('water')
+    elif  a == 'm':
+        print('mango')
+    elif  a == 'b':
+        print('bindu')
+    elif  a == 'c':
+        print('2x chips')
+    else:
+        print('invalid option')
+else:
+    print('wrong token')
