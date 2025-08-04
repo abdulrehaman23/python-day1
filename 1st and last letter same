@@ -1,0 +1,5 @@
+n=input('enter your name : ')
+if n[0] == n[len(n)-1] :
+    print('you are lucky')
+else:
+    print('you are unlucky')
